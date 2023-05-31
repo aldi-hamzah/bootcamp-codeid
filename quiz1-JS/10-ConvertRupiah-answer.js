@@ -8,7 +8,7 @@ function convertToRupiah(money,type){
   }
   let rupiah = 0;
   if(type === 'yen'){
-    rupiah = money * 0.13012;
+    rupiah = money * 130.12;
   } else if(type === 'usd'){
     rupiah = money * 14382.5;
   } else if(type === 'euro'){
