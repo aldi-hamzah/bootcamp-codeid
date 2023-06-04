@@ -55,4 +55,4 @@ END; $$
 CALL UpdatePolicyDueDate()
 
 -- Jawaban 5.E
-SELECT * FROM t_policy WHERE (premium-(premium*(discount/100))) < 1000000
+SELECT * FROM t_policy WHERE (premium-(premium*discount/100)) < 1000000
